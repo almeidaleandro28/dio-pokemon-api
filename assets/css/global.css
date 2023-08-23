@@ -1,0 +1,26 @@
+:root {
+  --f-roboto: 'Roboto', sans-serif;
+  --f-size-lg: 2.441rem;
+  --f-size-g: 1.953rem;
+  --f-size-m: 1.563rem;
+  --f-size-n: 1.563rem;
+  --f-size-d: 1rem;
+  --f-weight-light: 300;
+  --f-weight-normal: 400;
+  --f-weight-medium: 500;
+  --f-weight-bold: 700;
+}
+
+* {
+  font-family: var(--f-roboto);
+  font-weight: var(--f-weight-400);
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  padding: 2rem;
+}
+
+
+
